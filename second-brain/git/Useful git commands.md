@@ -4,7 +4,6 @@
 
 -  usecases
 	- add changes to last commit without editing its message
-
 		`$ git add .`
 		`$ git commit --amend --no-edit`
 
@@ -13,4 +12,10 @@
 		or
 		`$ git commit --amend -m "new commit message"`
 
-### 
+### git rm -r --cached 
+: Removing files from tracking
+
+- usecases
+	- make gitignore work after some commits...
+  	`$ git rm -r --cached filepath`	
+
